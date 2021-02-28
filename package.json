@@ -1,0 +1,33 @@
+{
+  "name": "pw-bot-chess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --project .",
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Project-Wartemis/bot-chess.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Project-Wartemis/bot-chess/issues"
+  },
+  "homepage": "https://github.com/Project-Wartemis/bot-chess#readme",
+  "dependencies": {
+    "chess.js": "^0.11.0",
+    "wartemis": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "tslint": "^6.1.2",
+    "tslint-etc": "^1.11.1",
+    "typescript": "^3.9.5"
+  }
+}
