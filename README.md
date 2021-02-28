@@ -1,8 +1,8 @@
-# Tic Tac Toe Demo bot for Wartemis
+# Chess Demo bot for Wartemis
 
 ### Behaviour
 
-It picks the first free available position.
+It picks a random legal move.
 
 ### Dependencies
 
